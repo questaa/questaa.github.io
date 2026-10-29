@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Queetelaa's Roastery</title>
+    
+    <!-- Google Fonts untuk Tampilan Aesthetic & Warm -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+    <!-- Menghubungkan ke file CSS utama -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Gaya Khusus Halaman About Us */
+        .story-timeline {
+            margin: 35px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 24px;
+            border-left: 2px solid #e8ded6;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 4px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #8c7e75;
+        }
+
+        .timeline-year {
+            font-size: 11px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            color: #a3958a;
+            text-transform: uppercase;
+        }
+
+        .timeline-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            color: #3b3532;
+            margin: 2px 0 6px 0;
+        }
+
+        .timeline-desc {
+            font-size: 12.5px;
+            color: #786f68;
+            line-height: 1.7;
+        }
+
+        .quote-box {
+            background-color: #faf7f5;
+            border: 1px solid #efe8e2;
+            border-radius: 8px;
+            padding: 22px 25px;
+            margin: 30px auto;
+            max-width: 580px;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #5c3d2e;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .quote-author {
+            display: block;
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #8c7e75;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-content">
+        <!-- Section Judul & Header -->
+        <section class="welcome-section">
+            <span class="subtitle">Kisah & Dedikasi Kami</span>
+            <h2>Tentang Queetelaa's Roastery</h2>
+            <p>
+                Awal dari sebuah kehangatan cangkir, tempat di mana aroma biji kopi lokal dan obrolan hangat menyatu dalam keheningan yang nyaman.
+            </p>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Kutipan Filosofi -->
+        <div class="quote-box">
+            "Where the sky feels good amount of caffeine — kami percaya setiap biji kopi membawa kisah perjalanan dan setiap racikan menyimpan ketenangan."
+            <span class="quote-author">— Queetelaa's Coffee House</span>
+        </div>
+
+        <!-- Perjalanan / Timeline Berdirinya Kafe -->
+        <section class="story-timeline">
+            <h3 class="menu-title" style="text-align: center; margin-bottom: 25px;">Perjalanan Kami</h3>
+
+            <div class="timeline-item">
+                <span class="timeline-year">Awal Mula — 2021</span>
+                <h4 class="timeline-title">Sebuah Kedai Seduh Kecil</h4>
+                <p class="timeline-desc">
+                    Queetelaa's Roastery pertama kali lahir pada pertengahan tahun 2021 di sudut kota Bandung. Berawal dari kedai manual brew sederhana dengan fokus menyajikan varian kopi arabika lokal berkualitas tinggi.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-year">Perkembangan — 2023</span>
+                <h4 class="timeline-title">House Roastery & Eksperimentasi Rasa</h4>
+                <p class="timeline-desc">
+                    Kami mulai memanggang (*roasting*) biji kopi sendiri secara mandiri. Menghadirkan berbagai profil rasa eksperimental unik seperti *Colombia Pink Bourbon* hingga *Kamojang Green Apple*.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-year">Hari Ini — 2026</span>
+                <h4 class="timeline-title">Rumah Bagi Pencinta Kopi & Ruang Digital</h4>
+                <p class="timeline-desc">
+                    Website ini hadir sebagai katalog digital interaktif untuk memudahkan para penikmat kopi menjelajahi koleksi biji kopi pilihan dan cerita di balik setiap seduhan kami.
+                </p>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+    </div>
+
+</body>
+</html>
